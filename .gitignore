@@ -1,2 +1,3 @@
-connection.json
+/connection.json
 .DS_Store
+docker_commands.txt

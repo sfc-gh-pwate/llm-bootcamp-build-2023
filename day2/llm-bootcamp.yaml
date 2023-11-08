@@ -1,0 +1,17 @@
+spec:
+  container:  
+  - name: llm-bootcamp
+    image: sfengineering-servicesnow.registry.snowflakecomputing.com/dash_db/public/dash_repo/llm-bootcamp
+    volumeMounts: 
+    - name: llm_workspace
+      mountPath: /notebooks/llm_workspace
+    env:
+      SNOWFLAKE_MOUNTED_STAGE_PATH: /notebooks/llm_workspace
+  endpoint:
+  - name: llm-bootcamp
+    port: 8888
+    public: true
+  volume:
+  - name: llm_workspace
+    source: "@llm_workspace"
+

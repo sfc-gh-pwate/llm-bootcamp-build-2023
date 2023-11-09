@@ -8,7 +8,7 @@ COPY environment.yml /notebooks
 RUN conda --version
 RUN conda env create -f environment.yml
 
-# Copy Notebook and data into the container at /app
+# Copy Notebook and data into the container at /notebooks
 COPY notebook.ipynb .
 COPY connection.json .
 

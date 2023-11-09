@@ -1,15 +1,10 @@
 name: llm-bootcamp
 channels:
   - https://repo.anaconda.com/pkgs/snowflake
-  - conda-forge
 dependencies:
   - snowflake-ml-python
   - pandas
   - jupyterlab
   - pip
   - pip:
-    - peft 
-    - accelerate 
-    - bitsandbytes
-    - vllm
     - streamlit

@@ -1,8 +1,8 @@
-name: llm-bootcamp
+name: rapids
 channels:
   - https://repo.anaconda.com/pkgs/snowflake
 dependencies:
-  - snowflake-ml-python
+  - snowflake-snowpark-python
   - pandas
   - jupyterlab
   - pip

@@ -1,17 +1,21 @@
 spec:
   container:  
   - name: llm-bootcamp
-    image: sfengineering-servicesnow.registry.snowflakecomputing.com/dash_db/public/dash_repo/llm-bootcamp
+    image: sfsenorthamerica-build-spcs.registry.snowflakecomputing.com/dash_db/dash_schema/image_repo/llm-bootcamp
     volumeMounts: 
-    - name: llm_workspace
-      mountPath: /notebooks/llm_workspace
+    - name: llm-workspace
+      mountPath: /notebooks/llm-workspace
     env:
-      SNOWFLAKE_MOUNTED_STAGE_PATH: /notebooks/llm_workspace
+      SNOWFLAKE_MOUNTED_STAGE_PATH: /notebooks/llm-workspace
+    resources:                         
+        requests:
+          nvidia.com/gpu: 1
+        limits:
+          nvidia.com/gpu: 1
   endpoint:
   - name: llm-bootcamp
     port: 8888
     public: true
   volume:
-  - name: llm_workspace
+  - name: llm-workspace
     source: "@llm_workspace"
-

@@ -1,1 +1,0 @@
-- conda create --name llm-bootcamp python=3.10 notebook snowflake-ml-python==1.0.10 transformers==4.32.1 tokenizers==0.13.3 pandas

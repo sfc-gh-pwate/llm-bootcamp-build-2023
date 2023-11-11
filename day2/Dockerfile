@@ -7,7 +7,7 @@ WORKDIR /notebooks
 COPY llm-day1-notebook.ipynb .
 COPY llm-day2-notebook.ipynb .
 COPY connection.json .
-COPY data/train.json .
+COPY data/transcripts.json .
 COPY snowflake_ml_python-1.0.12-py3-none-any.whl .
 
 RUN conda install -n rapids -c https://repo.anaconda.com/pkgs/snowflake snowflake-snowpark-python pandas jupyterlab

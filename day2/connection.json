@@ -1,10 +1,11 @@
 {
-  "account"   : "",
-  "user"      : "",
+  "account"   : "RTB37168",
+  "user"      : "USER0001",
   "password"  : "",
-  "role"      : "",
-  "warehouse" : "",
-  "database"  : "",
-  "schema"    : "",
+  "role"      : "ROLE_USER0001",
+  "warehouse" : "WH_XS_USER0001",
+  "database"  : "DB_USER0001",
+  "schema"    : "SCHEMA_LLM",
+  "compute_pool" : "COMPUTE_POOL_USER0001",
   "huggingface_token": ""
 }

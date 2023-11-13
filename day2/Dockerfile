@@ -3,7 +3,7 @@ FROM rapidsai/rapidsai:23.04-cuda11.8-runtime-ubuntu22.04-py3.8
 RUN apt-get update && apt-get install -y --no-install-recommends
 
 WORKDIR /notebooks
-# Copy Notebook and data into the container at /notebooks
+# Copy Notebooks and data into the container at /notebooks
 COPY llm-day1-notebook.ipynb .
 COPY llm-day2-notebook.ipynb .
 COPY connection.json .
@@ -12,14 +12,7 @@ COPY snowflake_ml_python-1.0.12-py3-none-any.whl .
 
 RUN conda install -n rapids -c https://repo.anaconda.com/pkgs/snowflake snowflake-snowpark-python pandas jupyterlab
 
-# RUN . /opt/conda/etc/profile.d/conda.sh && \
-#     conda activate rapids && \
-#     conda install -n rapids -c https://repo.anaconda.com/pkgs/snowflake snowflake-snowpark-python pandas jupyterlab && \
-#     pip install snowflake_ml_python-1.0.12-py3-none-any.whl && \
-#     pip install peft transformers tokenizers vllm bitsandbytes datasets absl-py && \
-#     conda list
-
-# Make ports 8888 and 8080 available to the world outside this container
+# Make port 8888 available to the world outside this container
 EXPOSE 8888
 
 # Run JupyterLab on port 8888 when the container launches

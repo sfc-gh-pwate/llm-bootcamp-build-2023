@@ -1,0 +1,3 @@
+conda create --name llm-bootcamp -c https://repo.anaconda.com/pkgs/snowflake python=3.9
+conda activate llm-bootcamp
+conda install -c https://repo.anaconda.com/pkgs/snowflake snowflake-snowpark-python pandas jupyterlab

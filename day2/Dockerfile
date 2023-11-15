@@ -6,6 +6,7 @@ WORKDIR /notebooks
 # Copy Notebooks and data into the container at /notebooks
 COPY llm-day1-notebook.ipynb .
 COPY llm-day2-notebook.ipynb .
+COPY llm-day2-notebook-finetuned.ipynb .
 COPY connection.json .
 COPY data/transcripts.json .
 COPY snowflake_ml_python-1.0.12-py3-none-any.whl .

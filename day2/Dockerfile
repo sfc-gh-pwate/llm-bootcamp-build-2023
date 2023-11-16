@@ -6,6 +6,7 @@ WORKDIR /notebooks
 # Copy Notebooks and data into the container at /notebooks
 COPY llm-day1-notebook.ipynb .
 COPY llm-day2-notebook.ipynb .
+COPY llm-day2-notebook-fine-tuned-full-dataset.ipynb .
 COPY utils.py .
 COPY connection.json .
 COPY data/transcripts.json .

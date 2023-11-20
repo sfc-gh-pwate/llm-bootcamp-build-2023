@@ -1,8 +1,4 @@
-# BUILD LLM Bootcamp 2023
-
-This repository contains instructions, code and data required to successfully complete BUILD LLM Bootcamp 2023.
-
-## Day 2: Fine-tune and Deploy Llama 2 in Snowpark Container Services
+## BUILD LLM Bootcamp 2023 Day 2: Fine-tune and Deploy Llama 2 in Snowpark Container Services
 
 ### Prerequisite
 

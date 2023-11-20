@@ -2,7 +2,7 @@
 
 ### Prerequisite
 
-Successfully completed [BUILD LLM Bootcamp Day 1](../day1/README).
+Successfully completed [BUILD LLM Bootcamp Day 1](https://github.com/Snowflake-Labs/build-llm-bootcamp-2023/blob/main/day1/README.md).
 
 ### Snowpark Container Services (SPCS) User Account
 

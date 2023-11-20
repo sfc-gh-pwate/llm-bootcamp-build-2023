@@ -1,7 +1,7 @@
 spec:
   container:  
   - name: llm-bootcamp
-    image: sfsenorthamerica-build-spcs.registry.snowflakecomputing.com/db_user0001/schema_llm/image_repo/llm-bootcamp
+    image: sfsenorthamerica-build-spcs.registry.snowflakecomputing.com/db_user####/schema_llm/image_repo/llm-bootcamp
     volumeMounts: 
     - name: llm-workspace
       mountPath: /notebooks/llm-workspace

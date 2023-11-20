@@ -109,6 +109,3 @@ In the **Results** section look for a column named `ingress_url` and copy the UR
 * On the left hand side, double click on [llm-day2-notebook.ipynb](llm-day2-notebook.ipynb)
 * Follow instructions and run through each cell in the Notebook
 
----
-
-For questions and comments, please reach out to [Dash](dash.desai@snowflake.com).

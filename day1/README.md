@@ -73,6 +73,26 @@ Replace `####` with your user number, set `password` and `huggingface_token`.
 * Select `llm-bootcamp` as your Notebook kernel
 * Follow instructions and run through each cell in the Notebook
 
----
+### BUILD LLM Bootcamp Day 2 Preparation
 
-For questions and comments, please reach out to [Dash](dash.desai@snowflake.com).
+Follow the instructions below to prepare your environment for BUILD LLM Bootcamp Day 2. 
+
+*NOTE:* These operations can take about ~45-60mins depending on your wireless connection.
+
+1) Open terminal window and browse to the folder where you have cloned the repository
+
+2) Change folder to *day2*
+
+3) Run command *`docker build --platform linux/amd64 -t llm-bootcamp .`*
+
+4) Once that image is built locally, run the following commands to push the image to Snowflake Registry
+    1) Replace ***YOUR_DB_NAME*** with the name of your DB and then run the following command
+
+        *`docker tag llm-bootcamp:latest sfsenorthamerica-build-spcs.registry.snowflakecomputing.com/YOUR_DB_NAME/schema_llm/image_repo/llm-bootcamp:latest`*
+    2) Run the following command and login using your BUILD LLM Bootcamp account username and password
+
+        *`docker login sfsenorthamerica-build-spcs.registry.snowflakecomputing.com`* 
+        
+    3) Replace ***YOUR_DB_NAME*** with the name of your DB and then run 
+    
+        *`docker push sfsenorthamerica-build-spcs.registry.snowflakecomputing.com/YOUR_DB_NAME/schema_llm/image_repo/llm-bootcamp:latest`*

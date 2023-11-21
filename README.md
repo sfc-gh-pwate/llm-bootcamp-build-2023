@@ -14,7 +14,7 @@ Learn more in the [README](/day2/README.md).
 
 After attending the Day 1 and Day 2 Bootcamp sessions, [earn the badge after completing the assessment](https://bit.ly/BUILD-LLM-Bootcamp2023) by December 8, 2023 11:59PM Pacific Time.
 
-![Badge](llm_bootcamp_badge.png)
+<img src="llm_bootcamp_badge.png" width="300px">
 
 ---
 

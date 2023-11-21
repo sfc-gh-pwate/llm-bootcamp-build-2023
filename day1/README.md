@@ -11,9 +11,11 @@ Completed Llama 2 request form (https://ai.meta.com/resources/models-and-librari
 
 ### Snowpark Container Services (SPCS) User Account
 
-Get exclusive access to Snowpark Container Services - currently in Private Preview - https://build-spcs.streamlit.app/ 
+Get exclusive access to Snowpark Container Services - currently in Private Preview - by click on this link https://build-spcs.streamlit.app/. 
 
-**NOTE**: If you are not able to get a SPCS user account, please still attend sessions on Day 1 and Day 2 and [earn the badge by completing the assessment](https://bit.ly/BUILD-LLM-Bootcamp2023).
+**NOTE**: If you are not able to get a SPCS user account, you can still attend sessions on Day 1 and Day 2 to [earn the badge by completing the assessment](https://bit.ly/BUILD-LLM-Bootcamp2023).
+
+![Badge](../llm_bootcamp_badge.png)
 
 ### Hugging Face Token
 
@@ -27,25 +29,25 @@ Clone this repository on your laptop and browse to the cloned folder.
 
 #### Step 2: Create Conda Environment
 
-In a terminal window, run the following command:
+In a terminal window, run the following command to create a conda environment:
 
 `conda create --name llm-bootcamp -c https://repo.anaconda.com/pkgs/snowflake python=3.9`
 
 #### Step 3: Activate Conda Environment
 
-In the same terminal window, run the following command:
+In the same terminal window, run the following command to activate the conda environment:
 
 `conda activate llm-bootcamp`
 
 #### Step 4: Install Libraries
 
-In the same terminal window, run the following command:
+In the same terminal window, run the following command to install required packages from Snowflake Anaconda channel:
 
 `conda install -c https://repo.anaconda.com/pkgs/snowflake snowflake-snowpark-python pandas notebook`
 
 #### Step 5: Update Credentials
 
-Update [connection.json](connection.json) with your Snowflake credentials based on the user account you have access to via "**Snowpark Container Services User Account**" section. Also update your Hugging Face token.
+Update [connection.json](connection.json) with your Hugging Face token and Snowflake credentials based on the user account you got access to -- see "**Snowpark Container Services User Account**" section above.
 
 ```json
 {
@@ -61,19 +63,21 @@ Update [connection.json](connection.json) with your Snowflake credentials based 
 }
 ```
 
-Replace `####` with your user number, set `password` and `huggingface_token`.
+**NOTE**: Replace `####` with your user number, set your `password` and `huggingface_token`.
 
-### Hands-on Lab: Deploy Llama 2 from Hugging Face in Snowpark Container Services
+### Hands-on Lab
 
 * Run `jupyter notebook` in the terminal window or open [llm-day1-notebook.ipynb](llm-day1-notebook.ipynb) in your favorite IDE.
 * Select `llm-bootcamp` as your Notebook kernel
 * Follow instructions and run through each cell in the Notebook
 
-### BUILD LLM Bootcamp Day 2 Preparation
+---
 
-Follow the instructions below to prepare your environment for BUILD LLM Bootcamp Day 2. 
+### Day 2 Preparation
 
-*NOTE:* These operations can take about ~45-60mins depending on your wireless connection.
+Once you have completed the Day 1 hands-on lab as outlined above, follow the instructions below to prepare your environment for BUILD LLM Bootcamp Day 2. 
+
+**NOTE:** These operations can take about ~45-60mins depending on your wireless connection.
 
 1) Open terminal window and browse to the folder where you have cloned the repository
 

@@ -6,9 +6,11 @@ Successfully completed [BUILD LLM Bootcamp Day 1](https://github.com/Snowflake-L
 
 ### Snowpark Container Services (SPCS) User Account
 
-Get exclusive access to Snowpark Container Services - currently in Private Preview - https://build-spcs.streamlit.app/ 
+Get exclusive access to Snowpark Container Services - currently in Private Preview - by click on this link https://build-spcs.streamlit.app/.
 
-**NOTE**: If you are not able to get a SPCS user account, please still attend sessions on Day 1 and Day 2 and [earn the badge by completing the assessment](https://bit.ly/BUILD-LLM-Bootcamp2023).
+**NOTE**: If you are not able to get a SPCS user account, you can still attend sessions on Day 1 and Day 2 to [earn the badge by completing the assessment](https://bit.ly/BUILD-LLM-Bootcamp2023).
+
+![Badge](../llm_bootcamp_badge.png)
 
 ### Hands-on Lab
 

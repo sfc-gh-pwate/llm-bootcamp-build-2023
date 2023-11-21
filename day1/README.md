@@ -13,9 +13,7 @@ Completed Llama 2 request form (https://ai.meta.com/resources/models-and-librari
 
 Get exclusive access to Snowpark Container Services - currently in Private Preview - by click on this link https://build-spcs.streamlit.app/. 
 
-**NOTE**: If you are not able to get a SPCS user account, you can still attend sessions on Day 1 and Day 2 to [earn the badge by completing the assessment](https://bit.ly/BUILD-LLM-Bootcamp2023).
-
-![Badge](../llm_bootcamp_badge.png)
+**NOTE**: If you are not able to get a SPCS user account, you can still attend sessions on Day 1 and Day 2 to [earn the badge after completing the assessment](https://bit.ly/BUILD-LLM-Bootcamp2023) by December 8, 2023 11:59PM Pacific Time.
 
 ### Hugging Face Token
 

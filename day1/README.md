@@ -63,7 +63,7 @@ Update [connection.json](connection.json) with your Hugging Face token and Snowf
 
 **NOTE**: Replace `####` with your user number, set your `password` and `huggingface_token`.
 
-### Hands-on Lab
+### Hands-on Lab: Deploy Llama 2 from Hugging Face in Snowpark Container Services
 
 * Run `jupyter notebook` in the terminal window or open [llm-day1-notebook.ipynb](llm-day1-notebook.ipynb) in your favorite IDE.
 * Select `llm-bootcamp` as your Notebook kernel
